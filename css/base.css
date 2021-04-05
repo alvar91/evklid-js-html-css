@@ -29,8 +29,8 @@ ul {
 .item__link:hover,
 .item__link:focus {
   padding-bottom: 5px;
-  color: var(--dark);
   border-bottom: 2px solid var(--orange);
+  color: var(--dark);
   line-height: 16px;
   outline-color: var(--orange);
   transition-duration: 0.2s;

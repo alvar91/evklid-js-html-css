@@ -28,8 +28,8 @@
 }
 
 .tabs__button:active {
-  color: var(--red);
   border-bottom: 2px solid var(--red);
+  color: var(--red);
   transition-duration: 0.2s;
   transition-timing-function: ease;
 }

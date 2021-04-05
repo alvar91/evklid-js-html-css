@@ -57,11 +57,11 @@
 }
 
 .form__check span {
-  color: var(--grey-border);
   position: relative;
   width: 100%;
   display: inline-block;
   padding-left: 20px;
+  color: var(--grey-border);
 }
 
 .form__check input:checked ~ span::after {
@@ -76,8 +76,8 @@
   top: 8px;
   width: 14px;
   height: 14px;
-  background-color: transparent;
   border: 1px solid var(--grey-border);
+  background-color: transparent;
 }
 
 .form__check span::after {

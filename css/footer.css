@@ -80,8 +80,8 @@
 .footer-item__link:hover,
 .footer-item__link:focus {
   padding-bottom: 5px;
-  color: var(--grey-border);
   border-bottom: 2px solid var(--orange);
+  color: var(--grey-border);
   line-height: 16px;
   outline-color: var(--orange);
   transition-duration: 0.2s;
@@ -89,8 +89,8 @@
 }
 
 .footer-item__link:active {
-  color: var(--red);
   border-bottom: 2px solid var(--red);
+  color: var(--red);
   transition-duration: 0.2s;
   transition-timing-function: ease;
 }

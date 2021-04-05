@@ -1,9 +1,9 @@
 .button {
   padding: 19px 38px;
+  border: 1px solid var(--dark);
   font-size: 16px;
   line-height: 19px;
   font-weight: 400;
-  border: 1px solid var(--dark);
   background-color: var(--light);
   transition-duration: 0.2s;
   transition-timing-function: ease;
@@ -27,11 +27,11 @@
 
 .button-fill {
   /* padding: 26px 37px; */
+  border: none;
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 19px;
-  border: none;
   color: var(--light);
   background-color: var(--orange);
   outline-color: var(--orange);
@@ -55,11 +55,11 @@
 
 .button-transparent {
   /* padding: 19px 38px; */
+  border: 3px solid var(--orange);
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 16px;
   line-height: 19px;
   font-weight: 400;
-  border: 3px solid var(--orange);
   background-color: transparent;
   transition-duration: 0.2s;
   transition-timing-function: ease;
@@ -76,8 +76,8 @@
 }
 
 .button-transparent:active {
-  background-color: var(--red);
   border: 3px solid var(--red);
+  background-color: var(--red);
   cursor: pointer;
   transition-duration: 0.2s;
   transition-timing-function: ease;
