@@ -1,0 +1,18 @@
+:root {
+    /* Colors */
+    --light: #FFF;
+    --light-grey: #E5E5E5;
+    --dark: #333;
+    --black: #000;
+    --light-orange: rgba(255, 153, 0, 0.6);
+    --orange: #FF9900;
+    --red: #E1670E;
+    --bg-color: #FFF;
+    --grey: #666;
+    --grey-circle: #ECECEC;
+    --dark-grey-circle: #D2D2D2;
+    --grey-border: #CACACA;
+    --bg-footer: #222;
+    --bg-input: #414141;
+    --green: #97EE3F;
+  }

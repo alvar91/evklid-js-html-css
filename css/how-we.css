@@ -1,0 +1,193 @@
+.how-we {
+  margin-bottom: 100px;
+}
+
+.how-we__tabs {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.tabs__button {
+  border: none;
+  font-family: "Montserrat", "Arial", sans-serif;
+  text-align: left;
+  background-color: transparent;
+  outline-color: var(--orange);
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+.tabs__button:hover, .tabs__button:focus {
+  color: var(--orange);
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+.tabs__button:active {
+  color: var(--red);
+  border-bottom: 2px solid var(--red);
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+.tabs__button--active {
+  color: var(--orange);
+}
+
+.how-we__content {
+  display: none;
+}
+
+.how-we__content--active {
+  display: block;
+}
+
+.how-we__button-fill {
+  margin-right: 30px;
+  width: 175px;
+  height: 60px;
+}
+
+@media (max-width: 767px) {
+  .tabs__button {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+  }
+
+  .how-we__content {
+    padding: 0;
+    padding-top: 167px;
+  }
+
+  .how-we__content--photo1 {
+    background: url("../img/how-we-1-phone.jpg") top center no-repeat;
+    background-size: 290px 160px;
+  }
+
+  .how-we__content--photo2 {
+    background: url("../img/how-we-2-phone.jpg") top center no-repeat;
+    background-size: 290px 160px;
+  }
+
+  .how-we__content--photo3 {
+    background: url("../img/how-we-3-phone.jpg") top center no-repeat;
+    background-size: 290px 160px;
+  }
+
+  .how-we__content--photo4 {
+    background: url("../img/how-we-4-phone.jpg") top center no-repeat;
+    background-size: 290px 160px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .tabs__button {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+
+  .how-we__content {
+    padding: 0;
+    padding-top: 322px;
+  }
+
+  .how-we__content--photo1 {
+    background: url("../img/how-we-1-phablet.jpg") top center no-repeat;
+    background-size: 668px 284px;
+  }
+
+  .how-we__content--photo2 {
+    background: url("../img/how-we-2-phablet.jpg") top center no-repeat;
+    background-size: 668px 284px;
+  }
+
+  .how-we__content--photo3 {
+    background: url("../img/how-we-3-phablet.jpg") top center no-repeat;
+    background-size: 668px 284px;
+  }
+
+  .how-we__content--photo4 {
+    background: url("../img/how-we-4-phablet.jpg") top center no-repeat;
+    background-size: 668px 284px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1919px) {
+  .tabs__button {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+
+  .how-we__tabs {
+    max-width: 469px;
+  }
+
+  .how-we__content {
+    padding: 0;
+    padding-right: 487px;
+  }
+
+
+  .how-we__content--photo1 {
+    background: url("../img/how-we-1-tablet.jpg") right center no-repeat;
+    background-size: 437px 689px;
+  }
+
+  .how-we__content--photo2 {
+    background: url("../img/how-we-2-tablet.jpg") right center no-repeat;
+    background-size: 437px 689px;
+  }
+
+  .how-we__content--photo3 {
+    background: url("../img/how-we-3-tablet.jpg") right center no-repeat;
+    background-size: 437px 689px;
+  }
+
+  .how-we__content--photo4 {
+    background: url("../img/how-we-4-tablet.jpg") right center no-repeat;
+    background-size: 437px 689px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .tabs__button {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+
+  .how-we__tabs {
+    max-width: 469px;
+  }
+
+  .how-we__content {
+    padding: 0;
+    padding-right: 1012px;
+  }
+
+  .how-we__content--photo1 {
+    background: url("../img/how-we-1-desktop.jpg") right center no-repeat;
+  }
+
+  .how-we__content--photo2 {
+    background: url("../img/how-we-2-desktop.jpg") right center no-repeat;
+  }
+
+  .how-we__content--photo3 {
+    background: url("../img/how-we-3-desktop.jpg") right center no-repeat;
+  }
+
+  .how-we__content--photo4 {
+    background: url("../img/how-we-4-desktop.jpg") right center no-repeat;
+  }
+}

@@ -1,0 +1,84 @@
+.button {
+  padding: 19px 38px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  border: 1px solid var(--dark);
+  background-color: var(--light);
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--light);
+  background-color: var(--grey);
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+.button:active {
+  background-color: var(--dark);
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+.button-fill {
+  /* padding: 26px 37px; */
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  border: none;
+  color: var(--light);
+  background-color: var(--orange);
+  outline-color: var(--orange);
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+.button-fill:hover,
+.button-fill:focus {
+  background-color: var(--light-orange);
+  outline-color: var(--light-orange);
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+.button-fill:active {
+  background-color: var(--red);
+  cursor: pointer;
+}
+
+.button-transparent {
+  /* padding: 19px 38px; */
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  border: 3px solid var(--orange);
+  background-color: transparent;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+.button-transparent:hover,
+.button-transparent:focus {
+  color: var(--light);
+  background-color: var(--orange);
+  outline-color: var(--orange);
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+.button-transparent:active {
+  background-color: var(--red);
+  border: 3px solid var(--red);
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
