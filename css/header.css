@@ -248,15 +248,34 @@
 
 @media (min-width: 1024px) {
   .header__inner {
-    min-height: 100px;
+    min-height: 102px;
   }
 
   .header__burger-menu {
     display: none;
   }
+
+  .breadcrumbs__item {
+    margin-right: 82px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .header__search {
+    margin-right: 10px;
+  }
 }
 
+// Custom
 @media (max-width: 1024px) {
+  .header__inner {
+    padding-top: 5px;
+  }
+  
   .nav__breadcrumbs {
     position: fixed;
     top: 0;
@@ -271,9 +290,5 @@
     transition: 0.5s;
     overflow: hidden;
     z-index: 9;
-  }
-
-  .breadcrumbs__item {
-    margin-right: 0;
   }
 }

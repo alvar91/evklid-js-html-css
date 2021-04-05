@@ -22,7 +22,7 @@
 
 .heading__level-3 {
   margin: 0;
-  margin-bottom: 36px;
+  margin-bottom: 22px;
   font-size: 48px;
   line-height: 58px;
   font-weight: 400;
@@ -31,6 +31,7 @@
 }
 
 .heading__level-4 {
+  margin: 0;
   font-size: 24px;
   line-height: 32px;
   font-weight: 700;

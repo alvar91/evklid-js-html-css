@@ -12,7 +12,8 @@
   background-color: var(--bg-input);
 }
 
-.input:focus, .input:active {
+.input:focus,
+.input:active {
   border: 2px solid var(--orange);
   outline: none;
 }
@@ -33,7 +34,8 @@
   resize: none;
 }
 
-.textarea:focus, .textarea:active {
+.textarea:focus,
+.textarea:active {
   border: 2px solid var(--orange);
   outline: none;
 }
@@ -59,7 +61,7 @@
   position: relative;
   width: 100%;
   display: inline-block;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 
 .form__check input:checked ~ span::after {
@@ -88,4 +90,33 @@
   color: var(--green);
   opacity: 0;
   transition: opacity 0.3s;
+}
+
+@media (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media (min-width: 1024px) and (max-width: 1919px) {
+}
+
+@media (min-width: 1920px) {
+  .form {
+    position: relative;
+  }
+
+  .textarea {
+    padding: 7px 24px;
+    padding-top: 23px;
+    margin-bottom: 20px;
+    width: 100%;
+    min-height: 150px;
+  }
+
+  .form__check {
+    position: absolute;
+    bottom: 4px;
+    right: -19px;
+  }
 }

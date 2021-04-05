@@ -20,7 +20,8 @@
   transition-timing-function: ease;
 }
 
-.tabs__button:hover, .tabs__button:focus {
+.tabs__button:hover,
+.tabs__button:focus {
   color: var(--orange);
   transition-duration: 0.2s;
   transition-timing-function: ease;
@@ -136,7 +137,6 @@
     padding-right: 487px;
   }
 
-
   .how-we__content--photo1 {
     background: url("../img/how-we-1-tablet.jpg") right center no-repeat;
     background-size: 437px 689px;
@@ -166,8 +166,28 @@
     text-align: left;
   }
 
+  .how-we__level-3 {
+    margin-bottom: 45px;
+  }
+
   .how-we__tabs {
+    margin-bottom: 40px;
     max-width: 469px;
+  }
+
+  .how-we__button-fill {
+    margin-right: 27px;
+    width: 175px;
+    height: 60px;
+  }
+
+  .how-we__text {
+    margin: 0;
+    margin-bottom: 64px;
+  }
+
+  .how-we__button-transparent {
+    padding: 19px 36px;
   }
 
   .how-we__content {

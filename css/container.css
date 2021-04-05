@@ -29,6 +29,7 @@
 @media (min-width: 1920px) {
   .container {
     margin: 0px auto;
+    padding: 0 76px;
     width: 1920px;
   }
 }

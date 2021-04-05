@@ -4,7 +4,6 @@
 
 .footer__inner {
   display: flex;
-  justify-content: space-between;
   color: var(--grey-border);
 }
 
@@ -29,6 +28,10 @@
   opacity: 0.5;
   transition-duration: 0.2s;
   transition-timing-function: ease;
+}
+
+.footer-socials__item:last-child {
+  margin-right: 0;
 }
 
 .footer-socials__item:hover {
@@ -147,5 +150,65 @@
   .footer__inner {
     padding-top: 48px;
     padding-bottom: 80px;
+  }
+
+  .footer__about {
+    margin-right: 283px;
+  }
+
+  .footer-nav__footer-breadcrumbs {
+    margin: 0;
+    padding: 0;
+    min-width: 317px;
+  }
+
+  .header__logo {
+    margin-bottom: 14px;
+  }
+
+  .footer-breadcrumbs__item {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .footer__footer-nav {
+    margin-bottom: 104px;
+  }
+
+  .footer-socials__item {
+    margin-right: 25px;
+  }
+
+  .footer-socials__link {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-indent: -9999px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    opacity: 0.5;
+  }
+
+  .footer-socials__link--facebook {
+    background: url(../img/fb.svg) center center / cover no-repeat;
+  }
+
+  .footer__form {
+    padding-top: 10px;
+    margin-right: 237px;
+    width: 570px;
+  }
+
+  .footer-advantage {
+    margin: 0;
+  }
+
+  .footer__footer-advantage {
+    padding-top: 79px;
+    max-width: 359px;
   }
 }
