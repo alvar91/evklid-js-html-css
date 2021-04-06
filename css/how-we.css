@@ -16,22 +16,19 @@
   background-color: transparent;
   outline-color: var(--orange);
   cursor: pointer;
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: color 0.2s ease, border-bottom0.2s ease;
 }
 
 .tabs__button:hover,
 .tabs__button:focus {
   color: var(--orange);
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: color 0.2s ease;
 }
 
 .tabs__button:active {
   border-bottom: 2px solid var(--red);
   color: var(--red);
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: color 0.2s ease, border-bottom0.2s ease;
 }
 
 .tabs__button--active {

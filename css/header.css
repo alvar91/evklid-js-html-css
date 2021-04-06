@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.header__burger-menu {
+.burger-menu {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -17,48 +17,41 @@
   background: transparent;
   cursor: pointer;
   outline-color: var(--orange);
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: background-color 0.2s ease;
 }
 
-.header__burger-menu:hover .burger-menu__first-line {
+.burger-menu:hover .burger-menu__first-line {
   background-color: var(--orange);
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: background-color 0.2s ease;
 }
 
-.header__burger-menu:hover .burger-menu__second-line {
+.burger-menu:hover .burger-menu__second-line {
   width: 25px;
   background-color: var(--orange);
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: background-color 0.2s ease;
 }
 
-.header__burger-menu:hover .burger-menu__third-line {
+.burger-menu:hover .burger-menu__third-line {
   width: 18px;
   background-color: var(--orange);
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: background-color 0.2s ease;
 }
 
-.header__burger-menu:active .burger-menu__first-line {
+.burger-menu:active .burger-menu__first-line {
   background-color: var(--red);
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: background-color 0.2s ease;
 }
 
-.header__burger-menu:active .burger-menu__second-line {
+.burger-menu:active .burger-menu__second-line {
   width: 25px;
   background-color: var(--red);
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: width 0.2s ease, background-color 0.2s ease;
 }
 
-.header__burger-menu:active .burger-menu__third-line {
+.burger-menu:active .burger-menu__third-line {
   width: 18px;
   background-color: var(--red);
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: width 0.2s ease, background-color 0.2s ease;
 }
 
 .burger-menu__first-line {
@@ -101,7 +94,7 @@
   justify-content: space-between;
 }
 
-.nav__breadcrumbs {
+.breadcrumbs {
   margin: 0;
   padding: 0;
   margin-right: 71px;
@@ -116,7 +109,7 @@
   margin-right: 0;
 }
 
-.search__button {
+.search-button {
   padding: 0;
   width: 25px;
   height: 25px;
@@ -124,25 +117,22 @@
   background-color: transparent;
   outline-color: var(--orange);
   cursor: pointer;
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: stroke 0.2s ease;
 }
 
-.search__button:hover rect,
-.search__button:hover circle {
+.search-button:hover rect,
+.search-button:hover circle {
   stroke: var(--orange);
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: stroke 0.2s ease;
 }
 
-.search__button:active rect,
-.search__button:active circle {
+.search-button:active rect,
+.search-button:active circle {
   stroke: var(--red);
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: stroke 0.2s ease;
 }
 
-.search__icon {
+.search-icon {
   vertical-align: middle;
 }
 
@@ -160,11 +150,11 @@
     min-height: 40px;
   }
 
-  .header__burger-menu {
+  .burger-menu {
     order: 2;
   }
 
-  .search__button {
+  .search-button {
     display: none;
   }
 
@@ -172,38 +162,33 @@
     margin-right: 0;
   }
 
-  .header__burger-menu:hover .burger-menu__second-line {
+  .burger-menu:hover .burger-menu__second-line {
     width: 20px;
     background-color: var(--orange);
-    transition-duration: 0.2s;
-    transition-timing-function: ease;
+    transition: width 0.2s ease, background-color 0.2s ease;
   }
 
-  .header__burger-menu:hover .burger-menu__third-line {
+  .burger-menu:hover .burger-menu__third-line {
     width: 13px;
     background-color: var(--orange);
-    transition-duration: 0.2s;
-    transition-timing-function: ease;
+    transition: width 0.2s ease, background-color 0.2s ease;
   }
 
-  .header__burger-menu:active .burger-menu__first-line {
+  .burger-menu:active .burger-menu__first-line {
     background-color: var(--red);
-    transition-duration: 0.2s;
-    transition-timing-function: ease;
+    transition: background-color 0.2s ease;
   }
 
-  .header__burger-menu:active .burger-menu__second-line {
+  .burger-menu:active .burger-menu__second-line {
     width: 20px;
     background-color: var(--red);
-    transition-duration: 0.2s;
-    transition-timing-function: ease;
+    transition: width 0.2s ease, background-color 0.2s ease;
   }
 
-  .header__burger-menu:active .burger-menu__third-line {
+  .burger-menu:active .burger-menu__third-line {
     width: 13px;
     background-color: var(--red);
-    transition-duration: 0.2s;
-    transition-timing-function: ease;
+    transition: width 0.2s ease, background-color 0.2s ease;
   }
 
   .burger-menu__first-line {
@@ -230,7 +215,7 @@
     position: absolute;
   }
 
-  .nav__breadcrumbs {
+  .breadcrumbs {
     position: fixed;
     top: 0;
     left: 0;
@@ -260,7 +245,7 @@
     position: absolute;
   }
 
-  .nav__breadcrumbs {
+  .breadcrumbs {
     position: fixed;
     top: 0;
     left: 0;
@@ -282,7 +267,7 @@
     min-height: 102px;
   }
 
-  .header__burger-menu {
+  .burger-menu {
     display: none;
   }
 

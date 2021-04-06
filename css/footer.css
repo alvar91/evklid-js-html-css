@@ -11,7 +11,7 @@
   max-width: 320px;
 }
 
-.footer-nav__footer-breadcrumbs {
+.footer-breadcrumbs {
   padding: 0;
   margin: 0;
 }
@@ -22,22 +22,20 @@
   margin: 0;
 }
 
-.footer-socials__item {
+.footer-socials {
   display: inline-block;
   margin-right: 20px;
-  opacity: 0.5;
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
 }
 
-.footer-socials__item:last-child {
+.footer-socials:last-child {
   margin-right: 0;
 }
 
-.footer-socials__item:hover {
+.footer-socials:hover {
   opacity: 1;
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: opacity 0.2s ease;
 }
 
 .footer-socials__link {
@@ -45,9 +43,8 @@
   width: 60px;
   height: 60px;
   text-indent: -9999px;
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
   opacity: 0.5;
+  transition: opacity 0.2s ease;
 }
 
 .footer-socials__link--facebook {
@@ -71,28 +68,25 @@
   height: 60px;
 }
 
-.footer-item__link {
+.footer-link {
   color: var(--grey-border);
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: color 0.2s ease, border-bottom 0.2s ease;
 }
 
-.footer-item__link:hover,
-.footer-item__link:focus {
+.footer-link:hover,
+.footer-link:focus {
   padding-bottom: 5px;
   border-bottom: 2px solid var(--orange);
   color: var(--grey-border);
   line-height: 16px;
   outline-color: var(--orange);
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: color 0.2s ease, border-bottom 0.2s ease;
 }
 
-.footer-item__link:active {
+.footer-link:active {
   border-bottom: 2px solid var(--red);
   color: var(--red);
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: color 0.2s ease, border-bottom 0.2s ease;
 }
 
 @media (max-width: 767px) {
@@ -156,7 +150,7 @@
     margin-right: 283px;
   }
 
-  .footer-nav__footer-breadcrumbs {
+  .footer-breadcrumbs {
     margin: 0;
     padding: 0;
     min-width: 317px;
@@ -179,7 +173,7 @@
     margin-bottom: 104px;
   }
 
-  .footer-socials__item {
+  .footer-socials {
     margin-right: 25px;
   }
 
@@ -188,9 +182,8 @@
     width: 60px;
     height: 60px;
     text-indent: -9999px;
-    transition-duration: 0.2s;
-    transition-timing-function: ease;
     opacity: 0.5;
+    transition: opacity 0.2s ease;
   }
 
   .footer-socials__link--facebook {

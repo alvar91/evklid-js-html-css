@@ -10,7 +10,7 @@
   background: url("../img/slide-3-desktop.jpg") center center / cover no-repeat;
 }
 
-.slider__content {
+.slider {
   position: absolute;
   top: 100px;
   left: 40px;
@@ -74,7 +74,7 @@
     padding: 32px 21px 40px 22px;
   }
 
-  .slider__content {
+  .slider {
     top: 36px;
     left: 2px;
     z-index: 100;
@@ -194,7 +194,7 @@
     width: 1770px;
   }
 
-  .slider__content {
+  .slider {
     position: absolute;
     top: 100px;
     left: 79px;

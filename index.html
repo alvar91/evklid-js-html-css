@@ -12,7 +12,7 @@
 <body>
   <header class="header">
     <div class="container header__inner">
-      <button class="header__burger-menu" id="burger-menu">
+      <button class="burger-menu" id="burger-menu">
         <span class="burger-menu__first-line"></span>
         <span class="burger-menu__second-line"></span>
         <span class="burger-menu__third-line"></span>
@@ -25,27 +25,27 @@
         <img class="header__logo" src="./img/logo-phone.svg" alt="Евклид - проектные системы">
       </picture>
       <nav class="nav">
-        <ul class="nav__breadcrumbs">
+        <ul class="breadcrumbs">
           <li class="breadcrumbs__item">
-            <a class="item__link" href="#">О нас</a>
+            <a class="link" href="#">О нас</a>
           </li>
           <li class="breadcrumbs__item">
-            <a class="item__link" href="#">Проекты</a>
+            <a class="link" href="#">Проекты</a>
           </li>
           <li class="breadcrumbs__item">
-            <a class="item__link" href="#">Этапы</a>
+            <a class="link" href="#">Этапы</a>
           </li>
           <li class="breadcrumbs__item">
-            <a class="item__link" href="#">Отзывы</a>
+            <a class="link" href="#">Отзывы</a>
           </li>
           <li class="breadcrumbs__item">
-            <a class="item__link" href="#">Контакты</a>
+            <a class="link" href="#">Контакты</a>
           </li>
         </ul>
       </nav>
       <div class="header__search">
-        <button class="search__button">
-          <svg class="search__icon" width="25" height="26" viewbox="0 0 25 26" fill="none"
+        <button class="search-button">
+          <svg class="search-icon" width="25" height="26" viewbox="0 0 25 26" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <rect x="18.5138" y="18.5496" width="8" height="2" transform="rotate(45 18.5138 18.5496)" fill="#333333" />
             <circle cx="11.5" cy="11.5" r="10.5" stroke="#333333" stroke-width="2" />
@@ -57,7 +57,7 @@
   <main class="main">
     <h1 class="heading__level-1">Евклид - проектные системы</h1>
     <section class="swiper-container">
-      <div class="slider__content">
+      <div class="slider">
         <h2 class="slider__heading">
           Проектные решения<br> любой сложности
         </h2>
@@ -86,8 +86,8 @@
           занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться от того, что
           высококачественный прототип будущего проекта способствует повышению качества экспериментов.
         </p>
-        <div class="about__advantages">
-          <div class="advantages__details">
+        <div class="advantages">
+          <div class="details">
             <div class="details__work"></div>
             <div class="details__menu">
               <p class="details__text">
@@ -120,16 +120,16 @@
       <div class="container">
         <h3 class="heading__level-3 how-we__level-3">Как мы работаем</h3>
         <ul class="how-we__tabs">
-          <li class="tabs__item">
+          <li class="tabs">
             <button class="tabs__button tabs__button--active" data-path="one">1 шаг</button>
           </li>
-          <li class="tabs__item">
+          <li class="tabs">
             <button class="tabs__button" data-path="two">2 шаг</button>
           </li>
-          <li class="tabs__item">
+          <li class="tabs">
             <button class="tabs__button" data-path="three">3 шаг</button>
           </li>
-          <li class="tabs__item">
+          <li class="tabs">
             <button class="tabs__button" data-path="four">4 шаг</button>
           </li>
         </ul>
@@ -200,7 +200,7 @@
               <h4 class="faq__level-4">Из чего формируется конечная стоимость проекта?</h4>
               <button class="faq__button js-toggle__button"></button>
             </div>
-            <div class="faq__answer">
+            <div class="answer">
               <p class="answer__text">
                 Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас
                 к
@@ -229,7 +229,7 @@
               <h4 class="faq__level-4">У меня есть свой проект. Сможем ли мы его доработать / реализовать?</h4>
               <button class="faq__button js-toggle__button"></button>
             </div>
-            <div class="faq__answer">
+            <div class="answer">
               <p>
                 Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас
                 к
@@ -258,7 +258,7 @@
               <h4 class="faq__level-4">Я выбираю между разными компаниями. В чём ваше отличие?</h4>
               <button class="faq__button js-toggle__button"></button>
             </div>
-            <div class="faq__answer">
+            <div class="answer">
               <p>
                 Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас
                 к
@@ -288,7 +288,7 @@
                 организацией?</h4>
               <button class="faq__button js-toggle__button"></button>
             </div>
-            <div class="faq__answer">
+            <div class="answer">
               <p>
                 Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас
                 к
@@ -317,7 +317,7 @@
               <h4 class="faq__level-4">Могу ли я вернуть деньги на каком-либо из этапов работ?</h4>
               <button class="faq__button js-toggle__button"></button>
             </div>
-            <div class="faq__answer">
+            <div class="answer">
               <p>
                 Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас
                 к
@@ -355,42 +355,42 @@
           <img class="header__logo" src="./img/logo-footer-phone.svg" alt="Евклид - проектные системы">
         </picture>
         <nav class="footer__footer-nav">
-          <ul class="footer-nav__footer-breadcrumbs">
+          <ul class="footer-breadcrumbs">
             <li class="footer-breadcrumbs__item">
-              <a class="footer-item__link" href="#">О нас</a>
+              <a class="footer-link" href="#">О нас</a>
             </li>
             <li class="footer-breadcrumbs__item">
-              <a class="footer-item__link" href="#">Проекты</a>
+              <a class="footer-link" href="#">Проекты</a>
             </li>
             <li class="footer-breadcrumbs__item">
-              <a class="footer-item__link" href="#">Отзывы</a>
+              <a class="footer-link" href="#">Отзывы</a>
             </li>
             <li class="footer-breadcrumbs__item">
-              <a class="footer-item__link" href="#">Договор оферты</a>
+              <a class="footer-link" href="#">Договор оферты</a>
             </li>
             <li class="footer-breadcrumbs__item">
-              <a class="footer-item__link" href="#"> Договор подряда</a>
+              <a class="footer-link" href="#"> Договор подряда</a>
             </li>
             <li class="footer-breadcrumbs__item">
-              <a class="footer-item__link" href="#">Конфиденциальность</a>
+              <a class="footer-link" href="#">Конфиденциальность</a>
             </li>
             <li class="footer-breadcrumbs__item">
-              <a class="footer-item__link" href="#">Партнёрское соглашение</a>
+              <a class="footer-link" href="#">Партнёрское соглашение</a>
             </li>
           </ul>
         </nav>
         <ul class="footer__footer-socials">
-          <li class="footer-socials__item">
+          <li class="footer-socials">
             <a class="footer-socials__link footer-socials__link--facebook" href="https://ru-ru.facebook.com/">
               facebook
             </a>
           </li>
-          <li class="footer-socials__item">
+          <li class="footer-socials">
             <a class="footer-socials__link footer-socials__link--vk" href="https://vk.com/">
               vk
             </a>
           </li>
-          <li class="footer-socials__item">
+          <li class="footer-socials">
             <a class="footer-socials__link footer-socials__link--instagram" href="https://www.instagram.com/?hl=ru">
               instagram
             </a>

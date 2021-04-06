@@ -1,7 +1,7 @@
 // Burger menu
 const burger = document.getElementById("burger-menu");
 const menuList = document.getElementById("burger-menu");
-const list = document.querySelector(".nav__breadcrumbs");
+const list = document.querySelector(".breadcrumbs");
 list.addEventListener("click", () => {
   if (list.offsetHeight !== 0) {
     list.classList.remove("show-mobile-menu");
@@ -55,6 +55,8 @@ const toggles = document.querySelectorAll(".js-toggle__button");
 
 toggles.forEach((toggle) => {
   toggle.addEventListener("click", () => {
-    toggle.parentNode.parentNode.classList.toggle("faq__question--active");
+    setTimeout(() => {
+      toggle.parentNode.parentNode.classList.toggle("faq__question--active");
+    }, 300)
   });
 });

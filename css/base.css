@@ -20,26 +20,23 @@ ul {
   list-style: none;
 }
 
-.item__link {
+.link {
   color: var(--dark);
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: color 0.2s ease;
 }
 
-.item__link:hover,
-.item__link:focus {
+.link:hover,
+.link:focus {
   padding-bottom: 5px;
   border-bottom: 2px solid var(--orange);
   color: var(--dark);
   line-height: 16px;
   outline-color: var(--orange);
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: color 0.2s ease, border-bottom 0.2s ease;
 }
 
-.item__link:active {
+.link:active {
   color: var(--red);
   border-bottom: 2px solid var(--red);
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: color 0.2s ease, border-bottom 0.2s ease;
 }

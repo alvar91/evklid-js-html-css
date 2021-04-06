@@ -5,8 +5,7 @@
   line-height: 19px;
   font-weight: 400;
   background-color: var(--light);
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: color 0.2s ease, background-color 0.2s ease;
 }
 
 .button:hover,
@@ -14,15 +13,13 @@
   color: var(--light);
   background-color: var(--grey);
   cursor: pointer;
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: color 0.2s ease, background-color 0.2s ease;
 }
 
 .button:active {
   background-color: var(--dark);
   cursor: pointer;
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: background-color 0.2s ease;
 }
 
 .button-fill {
@@ -35,8 +32,7 @@
   color: var(--light);
   background-color: var(--orange);
   outline-color: var(--orange);
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: background-color 0.2s ease, outline-color 0.2s ease;
 }
 
 .button-fill:hover,
@@ -44,8 +40,7 @@
   background-color: var(--light-orange);
   outline-color: var(--light-orange);
   cursor: pointer;
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: background-color 0.2s ease, outline-color 0.2s ease;
 }
 
 .button-fill:active {
@@ -61,8 +56,7 @@
   line-height: 19px;
   font-weight: 400;
   background-color: transparent;
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: color 0.2s ease, background-color 0.2s ease, outline-color 0.2s ease;
 }
 
 .button-transparent:hover,
@@ -71,14 +65,12 @@
   background-color: var(--orange);
   outline-color: var(--orange);
   cursor: pointer;
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: color 0.2s ease, background-color 0.2s ease, outline-color 0.2s ease;
 }
 
 .button-transparent:active {
   border: 3px solid var(--red);
   background-color: var(--red);
   cursor: pointer;
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+  transition: border 0.2s ease, background-color 0.2s ease;
 }

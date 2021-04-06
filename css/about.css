@@ -39,7 +39,7 @@
   color: var(--light);
 }
 
-.advantages__details {
+.details {
   position: relative;
 }
 
@@ -94,7 +94,7 @@
     color: var(--dark);
   }
 
-  .about__advantages {
+  .advantages {
     /* padding-top: 200px; */
     /* background: url("../img/work-phone.jpg") center top no-repeat;
     background-size: 100% auto; */
@@ -104,7 +104,7 @@
     color: var(--orange);
   }
 
-  .advantages__details {
+  .details {
     /* width: 290px; */
   }
 
@@ -145,11 +145,11 @@
     padding: 30px;
   }
 
-  .advantages__details {
+  .details {
     /* padding-top: 668px; */
   }
 
-  .advantages__details {
+  .details {
     margin-bottom: 30px;
   }
 }
@@ -173,11 +173,11 @@
     padding: 30px;
   }
 
-  .about__advantages {
+  .advantages {
     /* padding-top: 640px; */
   }
 
-  .advantages__details {
+  .details {
     margin-bottom: 30px;
   }
 }
@@ -234,12 +234,12 @@
     background: url(../img/details2.svg) 62px 54px no-repeat;
   }
 
-  .about__advantages {
+  .advantages {
     display: flex;
     gap: 30px;
   }
 
-  .advantages__details {
+  .details {
     flex-basis: 50%;
   }
 
