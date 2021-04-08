@@ -9,7 +9,7 @@
   width: 100%;
   min-height: 60px;
   border: none;
-  color: var(--grey-border);
+  color: var(--orange);
   background-color: var(--bg-input);
 }
 
@@ -30,7 +30,7 @@
   margin-bottom: 25px;
   width: 100%;
   min-height: 60px;
-  color: var(--grey-border);
+  color: var(--orange);
   border: none;
   background-color: var(--bg-input);
   resize: none;
@@ -83,13 +83,14 @@
 }
 
 .form__check span::after {
-  content: "\2714";
+  content: "";
   position: absolute;
   left: 4px;
   top: 1px;
   width: 14px;
   height: 14px;
   color: var(--green);
+  background: url("../img/check.svg") center center no-repeat;
   opacity: 0;
   transition: opacity 0.3s;
 }

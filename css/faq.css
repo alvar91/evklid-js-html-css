@@ -5,6 +5,7 @@
 .faq__question {
   border-top: 1px solid var(--grey);
   border-bottom: 1px solid var(--grey);
+  transition: border-top 0.2s ease, border-bottom 0.2s ease;
 }
 
 .faq__menu {
@@ -21,11 +22,13 @@
 
 .faq__question:hover + .faq__question {
   border-top: none;
+  transition: border-top 0.2s ease;
 }
 
 .faq__question:hover {
   border-top: 1px solid var(--orange);
   border-bottom: 1px solid var(--orange);
+  transition: border-top 0.2s ease, border-bottom 0.2s ease;
 }
 
 .answer {

@@ -1,5 +1,5 @@
 .header {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);;
 }
 
 .header__inner {
@@ -92,12 +92,12 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  margin-right: 71px;
 }
 
 .breadcrumbs {
   margin: 0;
   padding: 0;
-  margin-right: 71px;
   align-items: center;
 }
 
@@ -264,6 +264,7 @@
 
 @media (min-width: 1024px) {
   .header__inner {
+    padding-right: 10px;
     min-height: 102px;
   }
 
@@ -282,7 +283,7 @@
   }
 
   .header__search {
-    margin-right: 10px;
+
   }
 }
 

@@ -51,7 +51,7 @@ document.querySelectorAll(".tabs__button").forEach((button) => {
 });
 
 // Toggles
-const toggles = document.querySelectorAll(".js-toggle__button");
+const toggles = document.querySelectorAll(".js-toggle");
 
 toggles.forEach((toggle) => {
   toggle.addEventListener("click", () => {
