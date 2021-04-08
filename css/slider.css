@@ -196,7 +196,7 @@
 
   .slider {
     position: absolute;
-    top: 100px;
+    top: 102px;
     left: 79px;
     z-index: 100;
   }
@@ -209,10 +209,11 @@
   }
 
   .slider__heading {
+    margin-bottom: 20px;
     text-align: left;
     font-size: 70px;
     line-height: 86px;
-    margin-bottom: 23px;
+    letter-spacing: 0.2px;
   }
 
   .swiper-pagination {
@@ -220,17 +221,18 @@
   }
 
   .slider__text {
-    margin-bottom: 95px;
+    margin-bottom: 96px;
     font-size: 23px;
     font-style: normal;
     font-weight: 700;
     line-height: 29px;
     letter-spacing: 0em;
     text-align: left;
+    letter-spacing: 0.27px;
   }
 
   .slider__button {
-    min-width: 281px;
+    min-width: 282px;
     min-height: 80px;
     font-size: 24px;
     font-weight: 700;
