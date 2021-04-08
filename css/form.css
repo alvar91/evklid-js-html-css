@@ -47,6 +47,10 @@
   color: var(--grey-border);
 }
 
+.check {
+  left: -2px;
+}
+
 .form__check {
   display: inline-block;
   margin-bottom: 10px;
@@ -74,10 +78,10 @@
 .form__check span::before {
   content: "";
   position: absolute;
-  left: 1px;
-  top: 8px;
-  width: 14px;
-  height: 14px;
+  left: 2px;
+  top: 9px;
+  width: 12px;
+  height: 12px;
   border: 1px solid var(--grey-border);
   background-color: transparent;
 }
@@ -85,8 +89,8 @@
 .form__check span::after {
   content: "";
   position: absolute;
-  left: 4px;
-  top: 1px;
+  left: 2px;
+  top: 8px;
   width: 14px;
   height: 14px;
   color: var(--green);
