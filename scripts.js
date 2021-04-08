@@ -18,10 +18,10 @@ window.addEventListener("resize", () => {
 
 // Swiper slider
 const swiper = new Swiper(".swiper-container", {
-  autoplay: {
-    delay: 5000,
-    disableOnInteraction: false,
-  },
+  // autoplay: {
+  //   delay: 5000,
+  //   disableOnInteraction: false,
+  // },
   speed: 500,
   loop: true,
   pagination: { el: ".swiper-pagination", clickable: true },
