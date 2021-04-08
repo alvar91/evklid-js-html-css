@@ -15,8 +15,17 @@
   padding-right: 80px;
 }
 
-.faq__question:not(:first-child) {
+.faq__question:not(:last-child) {
+  border-bottom: none;
+}
+
+.faq__question:hover + .faq__question {
   border-top: none;
+}
+
+.faq__question:hover {
+  border-top: 1px solid var(--orange);
+  border-bottom: 1px solid var(--orange);
 }
 
 .answer {
