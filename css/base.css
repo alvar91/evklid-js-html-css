@@ -40,3 +40,7 @@ ul {
   border-bottom: 2px solid var(--red);
   transition: color 0.2s ease, border-bottom 0.2s ease;
 }
+
+.pt-2 {
+  padding-top: 2px;
+}

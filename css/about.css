@@ -4,21 +4,21 @@
 
 .about__content {
   margin: 0;
-  margin-bottom: 41px;
+  margin-bottom: 43px;
   text-align: left;
   font-weight: 400;
 }
 
 .about__icon {
   position: relative;
-  padding-right: 25px;
+  padding-right: 26px;
 }
 
 .about__icon::after {
   content: "";
   position: absolute;
   top: 2px;
-  right: 0px;
+  right: -1px;
   width: 18px;
   height: 16px;
   background: url("../img/about-icon.svg") center center / contain no-repeat;
@@ -188,6 +188,7 @@
   }
 
   .about__content {
+    padding-top: 10px;
     width: 1235px;
     font-size: 16px;
     font-style: normal;
@@ -197,6 +198,11 @@
     text-align: left;
   }
 
+  .details__level-4 {
+    margin-bottom: 3px;
+  }
+
+
   .details__work {
     height: 623px;
     width: 100%;
@@ -205,7 +211,7 @@
   }
 
   .details__option {
-    padding: 68px 113px 68px 300px;
+    padding: 65px 113px 65px 300px;
     height: 85%;
     border: 1px solid var(--grey-border);
   }
@@ -217,9 +223,9 @@
   .details__menu {
     position: absolute;
     bottom: 0;
-    min-height: 179px;
-    padding: 37px 68px 35px 53px;
-    /* width: 100%; */
+    min-height: 176px;
+    padding: 39px 68px 35px 54px;
+    width: 100%;
   }
 
   .details {
@@ -227,7 +233,7 @@
   }
 
   .details__option--option1 {
-    background: url(../img/details1.svg) 62px 73px no-repeat;
+    background: url(../img/details1.svg) 62px 70px no-repeat;
   }
 
   .details__option--option2 {
@@ -237,6 +243,7 @@
   .advantages {
     display: flex;
     gap: 30px;
+    height: 622px;
   }
 
   .details {
@@ -244,7 +251,8 @@
   }
 
   .advantages__button {
-    width: 233px;
+    margin-top: -4px;
+    width: 175px;
     height: 60px;
     align-self: center;
     color: var(--light);
