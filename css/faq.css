@@ -1,5 +1,5 @@
 .faq {
-  margin-bottom: 100px;
+  margin-bottom: 99px;
 }
 
 .faq__question {
@@ -105,14 +105,10 @@
   .faq__question {
     padding-top: 39px;
     padding-bottom: 39px;
+    padding-left: 5px;
   }
 
   .answer {
     padding-top: 30px;
   }
 }
-
-
-
-
-
