@@ -12,15 +12,15 @@
   overflow: hidden;
 }
 
-.heading__level-2 {
+/* .heading__level-2 {
   margin: 0;
   font-size: 70px;
   line-height: 70px;
   font-weight: 800;
   color: var(--light);
-}
+} */
 
-.heading__level-3 {
+.heading__level-2 {
   margin: 0;
   margin-bottom: 22px;
   font-size: 48px;
@@ -30,7 +30,7 @@
   color: var(--dark);
 }
 
-.heading__level-4 {
+.heading__level-3 {
   margin: 0;
   font-size: 24px;
   line-height: 32px;

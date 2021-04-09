@@ -9,6 +9,10 @@
   font-weight: 400;
 }
 
+.about__level-2 {
+  margin-bottom: 11px;
+}
+
 .about__icon {
   position: relative;
   padding-right: 26px;
@@ -198,10 +202,9 @@
     text-align: left;
   }
 
-  .details__level-4 {
+  .details__level-3 {
     margin-bottom: 3px;
   }
-
 
   .details__work {
     height: 623px;

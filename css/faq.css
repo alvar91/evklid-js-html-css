@@ -2,6 +2,11 @@
   margin-bottom: 99px;
 }
 
+.faq__content {
+  margin: 0;
+  padding: 0;
+}
+
 .faq__question {
   border-top: 1px solid var(--grey);
   border-bottom: 1px solid var(--grey);
@@ -21,14 +26,27 @@
 }
 
 .faq__question:hover + .faq__question {
-  border-top: none;
+  border-top: 1px solid var(--orange);
   transition: border-top 0.2s ease;
 }
 
 .faq__question:hover {
   border-top: 1px solid var(--orange);
-  border-bottom: 1px solid var(--orange);
   transition: border-top 0.2s ease, border-bottom 0.2s ease;
+}
+
+.faq__question:hover:last-child {
+  border-bottom: 1px solid var(--orange);
+}
+
+.faq__question:hover .faq__level-3, .faq__question:hover .grey {
+  color: var(--orange);
+  transition: color 0.2s ease;
+}
+
+.faq__question:hover .faq__button {
+  background: url(../img/cross.svg) center center no-repeat var(--dark-grey-circle);
+  transition: background-color 0.2s ease;
 }
 
 .answer {
@@ -63,12 +81,16 @@
   background: url("../img/cross.svg") center center no-repeat var(--grey-circle);
   transform: translate(0, 50%);
   cursor: pointer;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 .faq__question--active .faq__button {
   transform: translate(0, 50%) rotate(45deg);
   transition: transform 0.2s ease;
+}
+
+.grey {
+  color: var(--grey-border);
 }
 
 @media (max-width: 767px) {
@@ -84,7 +106,7 @@
 }
 
 @media (min-width: 1920px) {
-  .faq__level-3 {
+  .faq__level-2 {
     margin: 0;
     margin-bottom: 37px;
     font-size: 48px;
@@ -94,7 +116,7 @@
     color: var(--dark);
   }
 
-  .faq__level-4 {
+  .faq__level-3 {
     margin: 0;
     font-size: 24px;
     line-height: 32px;
