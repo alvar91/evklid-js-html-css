@@ -65,7 +65,7 @@ document.querySelectorAll(".tabs__button").forEach((button) => {
 $(document).ready(function () {
 
   $(".js-faq__question").each(function() {
-    $( this ).click(function(e) {
+    $(this).click(function(e) {
       const question = e.currentTarget.dataset.question;
       $(".js-toggle").removeClass("faq__button--active");
 
