@@ -17,7 +17,7 @@
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding-right: 80px;
 }
 
@@ -65,7 +65,12 @@
   margin-bottom: 40px;
 }
 
-.faq__question--active .answer {
+/* .faq__question--active .answer {
+  display: block;
+  margin-bottom: 40px;
+} */
+
+.ui-accordion-header-active .answer {
   display: block;
   margin-bottom: 40px;
 }
@@ -84,9 +89,14 @@
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
-.faq__question--active .faq__button {
+/* .faq__question--active .faq__button {
   transform: translate(0, 50%) rotate(45deg);
   transition: transform 0.2s ease;
+} */
+
+.faq__button--active {
+  transform: translate(0, 50%) rotate(45deg);
+  transition: transform 0.2s ease !important;
 }
 
 .grey {

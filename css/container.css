@@ -7,14 +7,16 @@
 
 @media (max-width: 767px) {
   .container {
-    margin: 0px auto;
-    width: 320px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 290px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .container {
     margin: 0px auto;
+    padding: 0 48px;
     width: 768px;
   }
 }
@@ -22,7 +24,8 @@
 @media (min-width: 1024px) and (max-width: 1919px) {
   .container {
     margin: 0px auto;
-    width: 1024px;
+    padding: 0 50px;
+    width: 924px;
   }
 }
 

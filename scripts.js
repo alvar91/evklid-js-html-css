@@ -51,12 +51,34 @@ document.querySelectorAll(".tabs__button").forEach((button) => {
 });
 
 // Toggles
-const toggles = document.querySelectorAll(".js-toggle");
+// const toggles = document.querySelectorAll(".js-toggle");
 
-toggles.forEach((toggle) => {
-  toggle.addEventListener("click", () => {
-    setTimeout(() => {
-      toggle.parentNode.parentNode.classList.toggle("faq__question--active");
-    }, 300)
+// toggles.forEach((toggle) => {
+//   toggle.addEventListener("click", () => {
+//     setTimeout(() => {
+//       toggle.parentNode.parentNode.classList.toggle("faq__question--active");
+//     }, 300);
+//   });
+// });
+
+// JQuery Toggles
+$(document).ready(function () {
+
+  $(".js-faq__question").each(function() {
+    $( this ).click(function(e) {
+      const question = e.currentTarget.dataset.question;
+      $(".js-toggle").removeClass("faq__button--active");
+
+      $(`[data-toggle="${question}"]`).addClass("faq__button--active");
+
+      // $(".js-accordion").accordion("refresh");
+    }
+  )});
+
+  $(".js-accordion").accordion({
+    collapsible: true,
+    autoHeight: false,
+    heightStyle: "content",
+    active: false,
   });
 });
