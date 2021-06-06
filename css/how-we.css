@@ -50,6 +50,10 @@
 }
 
 @media (max-width: 767px) {
+  .how-we {
+    margin-bottom: 39px;
+  }
+
   .how-we__level-2 {
     margin-bottom: 27px;
     font-weight: normal;
@@ -89,10 +93,10 @@
   }
 
   .how-we__button-fill {
-    margin-right: 5px;
+    margin-right: 6px;
     padding: 0;
     height: 40px;
-    width: 164px;
+    width: 162px;
     font-weight: bold;
     font-size: 12px;
     line-height: 15px;
@@ -129,6 +133,10 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .how-we {
+    margin-bottom: 59px;
+  }
+
   .tabs__button {
     font-size: 18px;
     font-weight: 400;
@@ -191,6 +199,10 @@
 }
 
 @media (min-width: 1024px) and (max-width: 1919px) {
+  .how-we {
+    margin-bottom: 55px;
+  }
+
   .tabs__button {
     padding: 0;
     font-size: 18px;

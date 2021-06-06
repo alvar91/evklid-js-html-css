@@ -146,7 +146,8 @@
 
 @media (max-width: 767px) {
   .header {
-    margin-bottom: 4px;
+    margin-bottom: 2px;
+    padding-top: 2px;
   }
 
   .header__inner {
@@ -279,6 +280,10 @@
 }
 
 @media (min-width: 1024px) and (max-width: 1919px) {
+  .header {
+    padding-top: 2px;
+  }
+
   .header__logo {
     padding-bottom: 4px;
     padding-right: 5px;
@@ -320,13 +325,7 @@
   }
 
   .breadcrumbs__item {
-    margin-right: 81px;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: center;
+    display: inline-block;
   }
 
   .header__search {

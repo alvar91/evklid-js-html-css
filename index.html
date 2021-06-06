@@ -266,12 +266,14 @@
       </section>
       <section class="faq">
         <div class="container">
-          <h2 class="faq__level-2">Часто задаваемые вопросы</h2>
+          <div class="faq__container">
+            <h2 class="faq__level-2">Часто  задаваемые вопросы</h2>
+          </div>
           <ul class="faq__content js-accordion">
             <li class="faq__question js-faq__question" data-question="1">
               <div class="faq__menu">
                 <h3 class="faq__level-3">
-                  Из чего формируется конечная стоимость проекта?
+                  Из чего формируется <br class="faq__phone-brake"> конечная стоимость проекта?
                 </h3>
                 <button class="faq__button js-toggle" data-toggle="1"></button>
               </div>
@@ -305,8 +307,8 @@
             <li class="faq__question js-faq__question" data-question="2">
               <div class="faq__menu">
                 <h3 class="faq__level-3">
-                  У меня есть свой проект. Сможем ли мы его доработать /
-                  реализовать?
+                  У меня есть свой проект. Сможем ли мы его <br class="faq__phone-brake faq__phablet-brake"> доработать /
+                  <br class="faq__tablet-brake" /> реализовать?
                 </h3>
                 <button class="faq__button js-toggle" data-toggle="2"></button>
               </div>
@@ -340,7 +342,7 @@
             <li class="faq__question js-faq__question" data-question="3">
               <div class="faq__menu">
                 <h3 class="faq__level-3">
-                  Я выбираю между разными компаниями. В чём ваше отличие?
+                  Я выбираю между разными компаниями.<br class="faq__phablet-brake"> В чём ваше отличие?
                 </h3>
                 <button class="faq__button js-toggle" data-toggle="3"></button>
               </div>
@@ -375,7 +377,7 @@
               <div class="faq__menu">
                 <h3 class="faq__level-3">
                   Могу ли я делегировать вам работу
-                  <span class="grey">/</span> согласование с подрядчиком
+                  <span class="grey">/</span> <br class="faq__phablet-brake"> согласование<br class="faq__phone-brake"> с подрядчиком
                   <span class="grey">/</span> организацией?
                 </h3>
                 <button class="faq__button js-toggle" data-toggle="4"></button>
@@ -410,7 +412,7 @@
             <li class="faq__question js-faq__question" data-question="5">
               <div class="faq__menu">
                 <h3 class="faq__level-3">
-                  Могу ли я вернуть деньги на каком-либо из этапов работ?
+                  Могу ли я вернуть деньги <br class="faq__phone-brake"> на каком-либо из <br class="faq__phablet-brake">этапов работ?
                 </h3>
                 <button class="faq__button js-toggle" data-toggle="5"></button>
               </div>
@@ -448,7 +450,7 @@
     <footer class="footer">
       <div class="container footer__inner">
         <div class="footer__about">
-          <a href="#">
+          <a class="footer__link" href="#">
             <picture class="footer__picture">
               <source
                 media="(min-width: 1920px)"
@@ -556,7 +558,7 @@
               Отправить данные
             </button>
             <label class="form__check">
-              <input name="checkbox" type="checkbox" />
+              <input class="checkbox" name="checkbox" type="checkbox" />
               <span class="check">Согласен на обработку данных</span>
             </label>
           </form>
