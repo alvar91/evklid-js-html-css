@@ -9,9 +9,13 @@
   </head>
 
   <body>
-    <header class="header">
+    <header class="header" aria-label="Секция с навигацией по сайту и поиском">
       <div class="container header__inner">
-        <button class="burger-menu" id="burger-menu">
+        <button
+          class="burger-menu"
+          id="burger-menu"
+          aria-label="Развернуть меню навигации"
+        >
           <span class="burger-menu__first-line"></span>
           <span class="burger-menu__second-line"></span>
           <span class="burger-menu__third-line"></span>
@@ -47,7 +51,7 @@
           </ul>
         </nav>
         <div class="header__search">
-          <button class="search-button">
+          <button class="search-button" aria-label="Поиск по сайту">
             <svg
               class="search-icon"
               width="25"
@@ -79,7 +83,7 @@
     <main class="main">
       <h1 class="heading__level-1">Евклид - проектные системы</h1>
       <section class="slider">
-        <div class="swiper-container">
+        <div class="swiper-container" aria-label="Основная информация">
           <div class="slider__container">
             <h2 class="slider__heading">
               Проектные решения<br />
@@ -91,7 +95,12 @@
               />
               пользователей и по сей день остаются уделом проектантов
             </p>
-            <button class="button-fill slider__button">Заказать расчёт</button>
+            <button
+              class="button-fill slider__button"
+              aria-label="Нажмите, для заказа расчета проекта в Эвклид"
+            >
+              Заказать расчёт
+            </button>
           </div>
           <ul class="swiper-wrapper">
             <li class="swiper-slide swiper-slide__slide1"></li>
@@ -101,7 +110,7 @@
           <div class="swiper-pagination"></div>
         </div>
       </section>
-      <section class="about">
+      <section class="about" aria-label="Секция с информацией о нас">
         <div class="container">
           <h2 class="heading__level-2 about__level-2">О нас</h2>
           <p class="about__content">
@@ -113,9 +122,16 @@
             убеждённость некоторых оппонентов требует от нас анализа как
             самодостаточных, так и внешне зависимых концептуальных решений!
             Следует отметить, что высококачественный
-            <span class="about__icon">прототип</span> будущего проекта
-            предопределяет высокую востребованность позиций, занимаемых
-            участниками в отношении поставленных задач. Мы вынуждены
+            <span
+              class="about__icon"
+              tabindex="0"
+              role="tooltip"
+              aria-labelledby="name-hint"
+              aria-label="Подсказка"
+              >прототип</span
+            >
+            будущего проекта предопределяет высокую востребованность позиций,
+            занимаемых участниками в отношении поставленных задач. Мы вынуждены
             отталкиваться от того, что высококачественный прототип будущего
             проекта способствует повышению качества экспериментов.
           </p>
@@ -124,11 +140,19 @@
               <div class="details__work"></div>
               <div class="details__menu">
                 <p class="details__text">
-                  Принимая во внимание показатели <br class="details__phablet-brake" /> успешности,<br class="details__brake" />
-                  перспективное планирование способствует подготовке<br class="details__brake" />
-                  и реализации <br class="details__phablet-brake" /> новых принципов.
+                  Принимая во внимание показатели
+                  <br class="details__phablet-brake" />
+                  успешности,<br class="details__brake" />
+                  перспективное планирование способствует подготовке<br
+                    class="details__brake"
+                  />
+                  и реализации <br class="details__phablet-brake" />
+                  новых принципов.
                 </p>
-                <button class="button-transparent advantages__button">
+                <button
+                  class="button-transparent advantages__button"
+                  aria-label="Нажмите, для получение подробной информации в Эвклид"
+                >
                   Подробнее
                 </button>
               </div>
@@ -163,22 +187,46 @@
           <h2 class="heading__level-2 how-we__level-2">Как мы работаем</h2>
           <ul class="how-we__tabs">
             <li class="tabs">
-              <button class="tabs__button tabs__button--active" data-path="one">
+              <button
+                class="tabs__button tabs__button--active"
+                data-path="one"
+                aria-label="Нажмите, для ознакомления с первым шагом нашей работы"
+              >
                 1 шаг
               </button>
             </li>
             <li class="tabs">
-              <button class="tabs__button" data-path="two">2 шаг</button>
+              <button
+                class="tabs__button"
+                data-path="two"
+                aria-label="Нажмите, для ознакомления со вторым шагом нашей работы"
+              >
+                2 шаг
+              </button>
             </li>
             <li class="tabs">
-              <button class="tabs__button" data-path="three">3 шаг</button>
+              <button
+                class="tabs__button"
+                data-path="three"
+                aria-label="Нажмите, для ознакомления с третьим шагом нашей работы"
+              >
+                3 шаг
+              </button>
             </li>
             <li class="tabs">
-              <button class="tabs__button" data-path="four">4 шаг</button>
+              <button
+                class="tabs__button"
+                data-path="four"
+                aria-label="Нажмите, для ознакомления с четвертым шагом нашей работы"
+              >
+                4 шаг
+              </button>
             </li>
           </ul>
           <div
-            class="how-we__content how-we__content--active how-we__content--photo1"
+            class="
+              how-we__content how-we__content--active how-we__content--photo1
+            "
             data-target="one"
           >
             <h3 class="heading__level-3 how-we__level-3">
@@ -198,8 +246,18 @@
               чрезвычайно интересные особенности картины в целом, однако
               конкретные выводы, разумеется, призваны к ответу.
             </p>
-            <button class="button-fill how-we__button-fill">Подробнее</button>
-            <button class="button how-we__button-transparent">Договор</button>
+            <button
+              class="button-fill how-we__button-fill"
+              aria-label="Нажмите, для получение подробной информации в Эвклид"
+            >
+              Подробнее
+            </button>
+            <button
+              class="button how-we__button-transparent"
+              aria-label="Нажмите, для получение подробной информации по договору в Эвклид"
+            >
+              Договор
+            </button>
           </div>
 
           <div
@@ -217,8 +275,18 @@
               картины, реплицированные с зарубежных источников, современные
               исследования подвергнуты целой серии независимых исследований.
             </p>
-            <button class="button-fill how-we__button-fill">Подробнее</button>
-            <button class="button">Договор</button>
+            <button
+              class="button-fill how-we__button-fill"
+              aria-label="Нажмите, для получение подробной информации в Эвклид"
+            >
+              Подробнее
+            </button>
+            <button
+              class="button"
+              aria-label="Нажмите, для получение подробной информации по договору в Эвклид"
+            >
+              Договор
+            </button>
           </div>
 
           <div
@@ -240,8 +308,18 @@
               позволяет выполнить важные задания по разработке прогресса
               профессионального сообщества.
             </p>
-            <button class="button-fill how-we__button-fill">Подробнее</button>
-            <button class="button">Договор</button>
+            <button
+              class="button-fill how-we__button-fill"
+              aria-label="Нажмите, для получение подробной информации в Эвклид"
+            >
+              Подробнее
+            </button>
+            <button
+              class="button"
+              aria-label="Нажмите, для получение подробной информации по договору в Эвклид"
+            >
+              Договор
+            </button>
           </div>
 
           <div
@@ -264,16 +342,17 @@
           </div>
         </div>
       </section>
-      <section class="faq">
+      <section class="faq" aria-label="Ответы на часто задаваемые вопросы">
         <div class="container">
           <div class="faq__container">
-            <h2 class="faq__level-2">Часто  задаваемые вопросы</h2>
+            <h2 class="faq__level-2">Часто задаваемые вопросы</h2>
           </div>
           <ul class="faq__content js-accordion">
             <li class="faq__question js-faq__question" data-question="1">
               <div class="faq__menu">
                 <h3 class="faq__level-3">
-                  Из чего формируется <br class="faq__phone-brake"> конечная стоимость проекта?
+                  Из чего формируется <br class="faq__phone-brake" />
+                  конечная стоимость проекта?
                 </h3>
                 <button class="faq__button js-toggle" data-toggle="1"></button>
               </div>
@@ -307,8 +386,10 @@
             <li class="faq__question js-faq__question" data-question="2">
               <div class="faq__menu">
                 <h3 class="faq__level-3">
-                  У меня есть свой проект. Сможем ли мы его <br class="faq__phone-brake faq__phablet-brake"> доработать /
-                  <br class="faq__tablet-brake" /> реализовать?
+                  У меня есть свой проект. Сможем ли мы его
+                  <br class="faq__phone-brake faq__phablet-brake" />
+                  доработать <span class="grey">/</span> <br class="faq__tablet-brake" />
+                  реализовать?
                 </h3>
                 <button class="faq__button js-toggle" data-toggle="2"></button>
               </div>
@@ -342,7 +423,10 @@
             <li class="faq__question js-faq__question" data-question="3">
               <div class="faq__menu">
                 <h3 class="faq__level-3">
-                  Я выбираю между разными компаниями.<br class="faq__phablet-brake"> В чём ваше отличие?
+                  Я выбираю между разными компаниями.<br
+                    class="faq__phablet-brake"
+                  />
+                  В чём ваше отличие?
                 </h3>
                 <button class="faq__button js-toggle" data-toggle="3"></button>
               </div>
@@ -377,8 +461,9 @@
               <div class="faq__menu">
                 <h3 class="faq__level-3">
                   Могу ли я делегировать вам работу
-                  <span class="grey">/</span> <br class="faq__phablet-brake"> согласование<br class="faq__phone-brake"> с подрядчиком
-                  <span class="grey">/</span> организацией?
+                  <span class="grey">/</span> <br class="faq__phablet-brake" />
+                  согласование<br class="faq__phone-brake" />
+                  с подрядчиком <span class="grey">/</span> организацией?
                 </h3>
                 <button class="faq__button js-toggle" data-toggle="4"></button>
               </div>
@@ -412,7 +497,9 @@
             <li class="faq__question js-faq__question" data-question="5">
               <div class="faq__menu">
                 <h3 class="faq__level-3">
-                  Могу ли я вернуть деньги <br class="faq__phone-brake"> на каком-либо из <br class="faq__phablet-brake">этапов работ?
+                  Могу ли я вернуть деньги <br class="faq__phone-brake" />
+                  на каком-либо из <br class="faq__phablet-brake" />этапов
+                  работ?
                 </h3>
                 <button class="faq__button js-toggle" data-toggle="5"></button>
               </div>
@@ -501,12 +588,14 @@
               <a
                 class="footer-socials__link footer-socials__link--facebook"
                 href="https://ru-ru.facebook.com/"
+                aria-label="Перейти в Фейсбук"
               >
                 facebook
               </a>
             </li>
             <li class="footer-socials">
               <a
+                aria-label="Перейти во Вконтакте"
                 class="footer-socials__link footer-socials__link--vk"
                 href="https://vk.com/"
               >
@@ -517,6 +606,7 @@
               <a
                 class="footer-socials__link footer-socials__link--instagram"
                 href="https://www.instagram.com/?hl=ru"
+                aria-label="Перейти в Инстаграм"
               >
                 instagram
               </a>
@@ -526,7 +616,7 @@
         <div class="footer__form">
           <h2 class="heading__level-2 footer__heading">Оставить заявку</h2>
 
-          <form class="form" action="post">
+          <form class="form" action="post" aria-label="Форма обратной связи">
             <label class="form__group">
               <input
                 class="input"
@@ -558,7 +648,12 @@
               Отправить данные
             </button>
             <label class="form__check">
-              <input class="checkbox" name="checkbox" type="checkbox" />
+              <input
+                class="checkbox"
+                name="checkbox"
+                type="checkbox"
+                aria-label="Согласие на обработку перcональных данных"
+              />
               <span class="check">Согласен на обработку данных</span>
             </label>
           </form>
