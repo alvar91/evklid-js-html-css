@@ -8,8 +8,8 @@
 @media (max-width: 767px) {
   .container {
     margin: 0 auto;
-    /* padding: 0 15px; */
-    width: 290px;
+    padding: 0 15px;
+    min-width: 290px;
   }
 }
 
@@ -24,8 +24,8 @@
 @media (min-width: 1024px) and (max-width: 1919px) {
   .container {
     margin: 0px auto;
-    /* padding: 0 50px; */
-    width: 924px;
+    padding: 0 50px;
+    min-width: 924px;
   }
 }
 

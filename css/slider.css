@@ -73,7 +73,7 @@
 
   .swiper-container {
     /* margin: 0 15px; */
-    width: 290px;
+    min-width: 290px;
   }
 
   .swiper-slide {
@@ -179,6 +179,8 @@
 
 @media (min-width: 1024px) and (max-width: 1919px) {
   .slider {
+    margin: 0 auto;
+    padding: 0 50px;
     margin-bottom: 44px;
   }
 
@@ -189,7 +191,7 @@
 
   .swiper-container {
     margin: 0px auto;
-    width: 924px;
+    min-width: 924px;
   }
 
   .swiper-slide {
