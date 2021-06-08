@@ -1,0 +1,41 @@
+{
+  "name": "evklid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:alvar91/evklid-js-html-css.git",
+  "author": "aleksei_varov <aleksey91scorp@bk.ru>",
+  "license": "MIT",
+  "scripts": {
+    "dev:client": "gulp --mode development",
+    "build:client": "gulp build --mode production"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
+    "del": "^6.0.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-cssimport": "^7.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.6",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "prettier": "^2.2.1",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-stream": "^6.1.2"
+  }
+}

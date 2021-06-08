@@ -4,8 +4,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <link rel="stylesheet" href="css/styles.css" />
     <title>Евклид</title>
+    <link rel="preload" href="fonts/Montserrat-regular.woff2" as="font" crossorigin>
+    <link rel="preload" href="fonts/Montserrat-bold.woff2" as="font" crossorigin>
+    <link rel="preload" href="fonts/Montserrat-semi-bold.woff2" as="font" crossorigin>
+    <link rel="preload" href="fonts/Montserrat-extra-bold.woff2" as="font" crossorigin>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="js/swiper-bundle.min.js"></script>
+    <script defer src="js/jquery.min.js"></script>
+    <script defer src="js/jquery-ui.min.js"></script>
+    <script defer src="js/scripts.js"></script>
   </head>
 
   <body>
@@ -22,12 +30,12 @@
         </button>
 
         <picture class="header__picture">
-          <source media="(min-width: 1920px)" srcset="./img/logo-desktop.png" />
-          <source media="(min-width: 1024px)" srcset="./img/logo-tablet.png" />
-          <source media="(min-width: 768px)" srcset="./img/logo-phablet.png" />
+          <source media="(min-width: 1920px)" srcset="img/logo-desktop.png" />
+          <source media="(min-width: 1024px)" srcset="img/logo-tablet.png" />
+          <source media="(min-width: 768px)" srcset="img/logo-phablet.png" />
           <img
             class="header__logo"
-            src="./img/logo-phone.png"
+            src="img/logo-phone.png"
             alt="Евклид - проектные системы"
           />
         </picture>
@@ -541,19 +549,19 @@
             <picture class="footer__picture">
               <source
                 media="(min-width: 1920px)"
-                srcset="./img/logo-footer-desktop.png"
+                srcset="img/logo-footer-desktop.png"
               />
               <source
                 media="(min-width: 1024px)"
-                srcset="./img/logo-footer-tablet.png"
+                srcset="img/logo-footer-tablet.png"
               />
               <source
                 media="(min-width: 768px)"
-                srcset="./img/logo-footer-phablet.png"
+                srcset="img/logo-footer-phablet.png"
               />
               <img
                 class="footer__logo"
-                src="./img/logo-footer-phone.png"
+                src="img/logo-footer-phone.png"
                 alt="Евклид - проектные системы"
               />
             </picture>
@@ -670,17 +678,7 @@
         </div>
       </div>
     </footer>
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-      integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-      crossorigin="anonymous"
-    ></script>
-    <script src="swiper.min.js"></script>
-    <script src="scripts.js"></script>
+    <!-- <script src="js/lazyload.min.js"></script>
+    <script>lazyload();</script> -->
   </body>
 </html>
