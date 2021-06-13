@@ -7,6 +7,7 @@ const gulpUtil = require("gulp-util");
 const gulpCleanCSS = require("gulp-clean-css");
 const del = require("del");
 const browserSync = require("browser-sync");
+const webp = require("gulp-webp");
 
 const isDevelopment = gulpUtil.env.mode === "development" ? true : false;
 
@@ -32,7 +33,7 @@ const paths = {
   },
   jslib: {
     src: "jslib/**/*.js",
-    dest: "static/js",
+    dest: "static/jslib",
   },
   images: {
     src: "img/*.*",
@@ -147,3 +148,7 @@ gulp.task(
   )
 );
 gulp.task("default", gulp.series("build", "watch"));
+
+gulp.task("webp", () =>
+  gulp.src("img/*.{jpg,png}").pipe(webp()).pipe(gulp.dest("img/"))
+);

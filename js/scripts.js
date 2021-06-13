@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Burger menu
   const burger = document.getElementById("burger-menu");
   const menuList = document.getElementById("burger-menu");
-  const list = document.querySelector(".breadcrumbs");
+  const list = document.querySelector(".nav-list");
   list.addEventListener("click", () => {
     if (list.offsetHeight !== 0) {
       list.classList.remove("show-mobile-menu");
@@ -19,12 +19,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Swiper slider
   const swiper = new Swiper(".swiper-container", {
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
-    speed: 500,
     loop: true,
+    // autoplay: {
+    //   delay: 5000,
+    //   disableOnInteraction: true,
+    // },
+    speed: 500,
+    effect: "fade",
     pagination: {
       el: ".swiper-pagination",
       clickable: true,

@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "dev:client": "gulp --mode development",
-    "build:client": "gulp build --mode production"
+    "build:client": "gulp build --mode production",
+    "webp": "gulp webp"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.10",
@@ -33,6 +34,7 @@
     "gulp-load-plugins": "^2.0.6",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-util": "^3.0.8",
+    "gulp-webp": "^4.0.1",
     "prettier": "^2.2.1",
     "webpack": "^5.24.4",
     "webpack-cli": "^4.5.0",
