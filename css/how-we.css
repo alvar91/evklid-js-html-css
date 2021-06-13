@@ -49,90 +49,133 @@
   height: 60px;
 }
 
-@media (max-width: 767px) {
-  .how-we {
-    margin-bottom: 39px;
-  }
-
-  .how-we__level-2 {
-    margin-bottom: 11px;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 29px;
+@media (min-width: 1920px) {
+  .tabs__button {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
   }
 
   .how-we__level-3 {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 32px;
+    margin-bottom: 7px;
+  }
+
+  .how-we__level-2 {
+    margin-bottom: 45px;
   }
 
   .how-we__tabs {
-    margin-bottom: 9px;
+    margin-bottom: 38px;
+    max-width: 476px;
   }
 
-  .tabs__button {
-    padding: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    text-align: left;
+  .how-we__button-fill {
+    margin-right: 27px;
+    width: 177px;
+    height: 60px;
   }
 
   .how-we__text {
     margin: 0;
-    margin-bottom: 20px;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 28px;
+    margin-bottom: 49px;
+  }
+
+  .how-we__button-transparent {
+    padding: 19px 36px;
   }
 
   .how-we__content {
     padding: 0;
-    padding-top: 167px;
-  }
-
-  .how-we__button-fill {
-    margin-right: 6px;
-    padding: 0;
-    height: 40px;
-    width: 162px;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
-  }
-
-  .how-we__button-transparent {
-    padding: 0;
-    height: 40px;
-    width: 116px;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
+    padding-right: 1012px;
   }
 
   .how-we__content--photo1 {
-    background: url("../img/how-we-1-phone.jpg") top center no-repeat;
-    background-size: 290px 160px;
+    background: url("../img/how-we-1-desktop.jpg") right 10px no-repeat;
   }
 
   .how-we__content--photo2 {
-    background: url("../img/how-we-2-phone.jpg") top center no-repeat;
-    background-size: 290px 160px;
+    background: url("../img/how-we-2-desktop.jpg") right center no-repeat;
   }
 
   .how-we__content--photo3 {
-    background: url("../img/how-we-3-phone.jpg") top center no-repeat;
-    background-size: 290px 160px;
+    background: url("../img/how-we-3-desktop.jpg") right center no-repeat;
   }
 
   .how-we__content--photo4 {
-    background: url("../img/how-we-4-phone.jpg") top center no-repeat;
-    background-size: 290px 160px;
+    background: url("../img/how-we-4-desktop.jpg") right center no-repeat;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 1919px) {
+  .how-we {
+    margin-bottom: 55px;
+  }
+
+  .tabs__button {
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+
+  .how-we__button-fill {
+    margin-right: 26px;
+    width: 176px;
+    height: 60px;
+  }
+
+  .how-we__button-transparent {
+    padding: 19px 37px;
+  }
+
+  .how-we__level-2 {
+    margin-left: -7px;
+    margin-bottom: 41px;
+  }
+
+  .how-we__level-3 {
+    margin-bottom: 7px;
+  }
+
+  .how-we__tabs {
+    margin-bottom: 46px;
+    max-width: 459px;
+  }
+
+  .how-we__content {
+    padding: 0;
+    padding-right: 487px;
+  }
+
+  .how-we__text {
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
+  .how-we__content--photo1 {
+    background: url("../img/how-we-1-tablet.jpg") right 11px no-repeat;
+    background-size: 437px 689px;
+  }
+
+  .how-we__content--photo2 {
+    background: url("../img/how-we-2-tablet.jpg") right center no-repeat;
+    background-size: 437px 689px;
+  }
+
+  .how-we__content--photo3 {
+    background: url("../img/how-we-3-tablet.jpg") right center no-repeat;
+    background-size: 437px 689px;
+  }
+
+  .how-we__content--photo4 {
+    background: url("../img/how-we-4-tablet.jpg") right center no-repeat;
+    background-size: 437px 689px;
+  }
+}
+
+@media (max-width: 1023px) {
   .how-we {
     margin-bottom: 59px;
   }
@@ -198,22 +241,46 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1919px) {
+@media (max-width: 784px) {
   .how-we {
-    margin-bottom: 55px;
+    margin-bottom: 59px;
   }
 
   .tabs__button {
-    padding: 0;
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
     text-align: left;
   }
 
+  .how-we__tabs {
+    justify-content: space-between;
+    margin-bottom: 39px;
+    max-width: 100%;
+  }
+
+  .how-we__level-2 {
+    margin-left: -4px;
+    margin-bottom: 44px;
+  }
+
+  .how-we__level-3 {
+    margin-bottom: 7px;
+  }
+
+  .how-we__text {
+    margin: 0;
+    margin-bottom: 24px;
+  }
+
+  .how-we__content {
+    padding: 0;
+    padding-top: 327px;
+  }
+
   .how-we__button-fill {
     margin-right: 26px;
-    width: 176px;
+    width: 177px;
     height: 60px;
   }
 
@@ -221,105 +288,107 @@
     padding: 19px 37px;
   }
 
-  .how-we__level-2 {
-    margin-left: -7px;
-    margin-bottom: 45px;
-  }
-
-  .how-we__level-3 {
-    margin-bottom: 3px;
-  }
-
-  .how-we__tabs {
-    margin-bottom: 39px;
-    max-width: 469px;
-  }
-
-  .how-we__content {
-    padding: 0;
-    padding-right: 487px;
-  }
-
-  .how-we__text {
-    margin: 0;
-    margin-bottom: 29px;
-  }
-
   .how-we__content--photo1 {
-    background: url("../img/how-we-1-tablet.jpg") right 11px no-repeat;
-    background-size: 437px 689px;
+    background: url("../img/how-we-1-phablet.jpg") top center no-repeat;
+    background-size: 668px 284px;
   }
 
   .how-we__content--photo2 {
-    background: url("../img/how-we-2-tablet.jpg") right center no-repeat;
-    background-size: 437px 689px;
+    background: url("../img/how-we-2-phablet.jpg") top center no-repeat;
+    background-size: 668px 284px;
   }
 
   .how-we__content--photo3 {
-    background: url("../img/how-we-3-tablet.jpg") right center no-repeat;
-    background-size: 437px 689px;
+    background: url("../img/how-we-3-phablet.jpg") top center no-repeat;
+    background-size: 668px 284px;
   }
 
   .how-we__content--photo4 {
-    background: url("../img/how-we-4-tablet.jpg") right center no-repeat;
-    background-size: 437px 689px;
+    background: url("../img/how-we-4-phablet.jpg") top center no-repeat;
+    background-size: 668px 284px;
   }
 }
 
-@media (min-width: 1920px) {
-  .tabs__button {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 22px;
-    text-align: left;
-  }
-
-  .how-we__level-3 {
-    margin-bottom: 3px;
+@media (max-width: 335px) {
+  .how-we {
+    margin-bottom: 39px;
   }
 
   .how-we__level-2 {
-    margin-bottom: 45px;
+    margin-bottom: 11px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .how-we__level-3 {
+    margin-bottom: 7px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
   }
 
   .how-we__tabs {
-    margin-bottom: 38px;
-    max-width: 476px;
+    margin-bottom: 9px;
   }
 
-  .how-we__button-fill {
-    margin-right: 27px;
-    width: 177px;
-    height: 60px;
+  .tabs__button {
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
   }
 
   .how-we__text {
     margin: 0;
-    margin-bottom: 60px;
-  }
-
-  .how-we__button-transparent {
-    padding: 19px 36px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
   }
 
   .how-we__content {
     padding: 0;
-    padding-right: 1012px;
+    padding-top: 177px;
+  }
+
+  .how-we__button-fill {
+    margin-right: 6px;
+    padding: 0;
+    height: 40px;
+    width: 162px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .how-we__button-transparent {
+    padding: 0;
+    height: 40px;
+    width: 116px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
   }
 
   .how-we__content--photo1 {
-    background: url("../img/how-we-1-desktop.jpg") right 10px no-repeat;
+    background: url("../img/how-we-1-phone.jpg") top center no-repeat;
+    background-size: 290px 160px;
   }
 
   .how-we__content--photo2 {
-    background: url("../img/how-we-2-desktop.jpg") right center no-repeat;
+    background: url("../img/how-we-2-phone.jpg") top center no-repeat;
+    background-size: 290px 160px;
   }
 
   .how-we__content--photo3 {
-    background: url("../img/how-we-3-desktop.jpg") right center no-repeat;
+    background: url("../img/how-we-3-phone.jpg") top center no-repeat;
+    background-size: 290px 160px;
   }
 
   .how-we__content--photo4 {
-    background: url("../img/how-we-4-desktop.jpg") right center no-repeat;
+    background: url("../img/how-we-4-phone.jpg") top center no-repeat;
+    background-size: 290px 160px;
   }
 }
