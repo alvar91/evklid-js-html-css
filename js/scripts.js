@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Burger menu
   const burger = document.getElementById("burger-menu");
   const menuList = document.getElementById("burger-menu");
-  const list = document.querySelector(".nav-list");
+  const list = document.querySelector(".header-nav-list");
   list.addEventListener("click", () => {
     if (list.offsetHeight !== 0) {
       list.classList.remove("show-mobile-menu");
@@ -20,10 +20,10 @@ document.addEventListener("DOMContentLoaded", function () {
   // Swiper slider
   const swiper = new Swiper(".swiper-container", {
     loop: true,
-    // autoplay: {
-    //   delay: 5000,
-    //   disableOnInteraction: true,
-    // },
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: true,
+    },
     speed: 500,
     effect: "fade",
     pagination: {
@@ -68,16 +68,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // JQuery Toggles
   $(document).ready(function () {
-    $(".js-faq__question").each(function () {
-      $(this).click(function (e) {
-        const question = e.currentTarget.dataset.question;
-        $(".js-toggle").removeClass("faq__button--active");
+    // $(".js-faq__question").each(function () {
+    //   $(this).click(function (e) {
+    //     const question = e.currentTarget.dataset.question;
+    //     $(".js-toggle").removeClass("faq__button--active");
 
-        $(`[data-toggle="${question}"]`).addClass("faq__button--active");
+    //     $(`[data-toggle="${question}"]`).addClass("faq__button--active");
 
-        // $(".js-accordion").accordion("refresh");
-      });
-    });
+    //     // $(".js-accordion").accordion("refresh");
+    //   });
+    // });
 
     $(".js-accordion").accordion({
       collapsible: true,
@@ -86,4 +86,5 @@ document.addEventListener("DOMContentLoaded", function () {
       active: false,
     });
   });
+
 });
