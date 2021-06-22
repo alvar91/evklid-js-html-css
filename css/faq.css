@@ -17,7 +17,6 @@
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
   padding-right: 80px;
 }
 
@@ -33,6 +32,7 @@
 .faq__question:hover {
   border-top: 1px solid var(--orange);
   transition: border-top 0.2s ease, border-bottom 0.2s ease;
+  cursor: pointer;
 }
 
 .faq__question:hover:last-child {
@@ -67,11 +67,6 @@
   margin-bottom: 40px;
 }
 
-/* .faq__question--active .answer {
-  display: block;
-  margin-bottom: 40px;
-} */
-
 .ui-accordion-header-active .answer {
   display: block;
   margin-bottom: 40px;
@@ -96,16 +91,6 @@
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
-/* .faq__question--active .faq__button {
-  transform: translate(0, 50%) rotate(45deg);
-  transition: transform 0.2s ease;
-} */
-
-/* .faq__button--active {
-  transform: translate(0, 50%) rotate(45deg);
-  transition: transform 0.2s ease !important;
-} */
-
 .grey {
   color: var(--grey-border);
 }
@@ -129,7 +114,6 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
-    /* letter-spacing: 0.2px; */
   }
 
   .faq__question:hover .faq__button {
@@ -161,7 +145,6 @@
   }
 
   .faq__menu {
-    /* padding: 30px 0; */
     padding-right: 46px;
   }
 
@@ -204,11 +187,7 @@
 
   .faq__level-3 {
     margin: 0;
-    /* padding-top: 35px;
-    padding-bottom: 35px; */
     padding: 30px 0;
-    /* padding-left: 4px;
-    padding-right: 50px; */
     font-weight: bold;
     font-size: 20px;
     line-height: 32px;
@@ -216,12 +195,6 @@
 
   .faq__question:first-child .faq__level-3 {
     padding: 39px 0;
-  }
-
-  .faq__menu {
-    /* padding: 30px 0;
-    padding-left: 4px;
-    padding-right: 50px; */
   }
 
   .faq__phone-brake {
@@ -244,7 +217,6 @@
 
   .faq__level-2 {
     margin: 0;
-    //margin-left: 47px;
     margin-bottom: 28px;
     font-weight: normal;
     font-size: 48px;
@@ -257,10 +229,6 @@
 
   .faq__phablet-brake {
     display: none;
-  }
-
-  .faq__question {
-    /* padding: 35px 0; */
   }
 
   .faq__level-3 {
@@ -299,17 +267,10 @@
     margin: 0;
     padding-top: 40px;
     padding-bottom: 39px;
-    //padding-left: 5px;
     font-size: 24px;
     line-height: 32px;
     font-weight: 700;
     color: var(--dark);
-  }
-
-  .faq__question {
-    /* padding-top: 39px;
-    padding-bottom: 39px;
-    padding-left: 5px; */
   }
 
   .answer {

@@ -65,61 +65,33 @@
   <main class="main">
     <h1 class="visually-hidden">Евклид - проектные системы</h1>
     <section class="promo">
-      <div class="swiper-container">
-
-        <ul class="swiper-wrapper">
-          <li class="swiper-slide swiper-slide__slide1">
-            <h2 class="promo__heading">
-              Проектные решения<br />
-              любой сложности
-            </h2>
-            <p class="promo__text">
-              Есть над чем задуматься: базовые сценарии поведения<br class="promo__brake" />
-              пользователей и по сей день остаются уделом<br class="promo__phablet-brake" /> проектантов
-            </p>
-            <button class="button-fill promo__button" aria-label="Нажмите, для заказа расчета проекта в Эвклид">
-              Заказать расчёт
-            </button>
-
-          </li>
-          <div class="swiper-slide swiper-slide__slide2">
-
-            <h2 class="promo__heading">
-              Проектные решения<br />
-              любой сложности
-            </h2>
-            <p class="promo__text">
-              Есть над чем задуматься: базовые сценарии поведения<br class="promo__brake" />
-              пользователей и по сей день остаются уделом<br class="promo__phablet-brake" /> проектантов
-            </p>
-            <button class="button-fill promo__button" aria-label="Нажмите, для заказа расчета проекта в Эвклид">
-              Заказать расчёт
-            </button>
+      <div class="container container-promo">
+        <div class="promo__wrap">
+          <h2 class="promo__title">
+            Проектные решения любой сложности
+          </h2>
+          <p class="promo__text">
+            Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов
+          </p>
+          <button class="btn btn_orange btn_promo">Заказать расчёт</button>
+          <div class="swiper-container promo__slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide promo__slide1">
+              </div>
+              <div class="swiper-slide promo__slide2">
+              </div>
+              <div class="swiper-slide promo__slide3">
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
           </div>
-
-          <li class="swiper-slide swiper-slide__slide3">
-
-            <h2 class="promo__heading">
-              Проектные решения<br />
-              любой сложности
-            </h2>
-            <p class="promo__text">
-              Есть над чем задуматься: базовые сценарии поведения<br class="promo__brake" />
-              пользователей и по сей день остаются уделом<br class="promo__phablet-brake" /> проектантов
-            </p>
-            <button class="button-fill promo__button" aria-label="Нажмите, для заказа расчета проекта в Эвклид">
-              Заказать расчёт
-            </button>
-
-          </li>
-        </ul>
-        <div class="swiper-pagination"></div>
+        </div>
       </div>
     </section>
 
     <section class="about">
       <div class="container">
-        <h2 class="section-heading-2 about__heading">О нас</h2>
+        <h2 class="section-heading about__heading">О нас</h2>
         <p class="about__text">
           Также как перспективное планирование создаёт необходимость включения
           в производственный план целого ряда внеочередных мероприятий
@@ -152,7 +124,7 @@
           </div>
           <div class="details__right">
             <div class="details__item details__item--cube">
-              <h3 class="section-heading-3 details__heading">
+              <h3 class="section-sub-heading details__heading">
                 Консультация с широким активом
               </h3>
               <p class="option">
@@ -162,7 +134,7 @@
               </p>
             </div>
             <div class="details__item details__item--settings">
-              <h3 class="section-heading-3 details__heading">
+              <h3 class="section-sub-heading details__heading">
                 В своём стремлении повысить
               </h3>
               <p class="option">
@@ -178,7 +150,7 @@
 
     <section class="how-we">
       <div class="container">
-        <h2 class="section-heading-2 how-we__level-2">Как мы работаем</h2>
+        <h2 class="section-heading how-we__sub">Как мы работаем</h2>
         <ul class="how-we__tabs">
           <li class="tabs">
             <button class="tabs__button tabs__button--active" data-path="one"
@@ -208,7 +180,7 @@
         <div class="
               how-we__content how-we__content--active how-we__content--photo1
             " data-target="one">
-          <h3 class="section-heading-3 how-we__level-3">
+          <h3 class="section-sub-heading how-we__level-3">
             Проводим консультацию
           </h3>
           <p class="how-we__text">
@@ -236,7 +208,7 @@
         </div>
 
         <div class="how-we__content how-we__content--photo2" data-target="two">
-          <h3 class="section-heading-3">Составляем смету</h3>
+          <h3 class="section-sub-heading">Составляем смету</h3>
           <p class="how-we__text">
             Внедрения и модернизации приоритизации разума над эмоциями. В
             рамках спецификации современных стандартов, некоторые особенности
@@ -257,7 +229,7 @@
         </div>
 
         <div class="how-we__content how-we__content--photo3" data-target="three">
-          <h3 class="section-heading-3">Привлекаем подрядчиков</h3>
+          <h3 class="section-sub-heading">Привлекаем подрядчиков</h3>
           <p class="how-we__text">
             Идейные соображения высшего порядка, а также новая модель
             организационной деятельности требует анализа прогресса
@@ -282,7 +254,7 @@
         </div>
 
         <div class="how-we__content how-we__content--photo4" data-target="four">
-          <h3 class="section-heading-3">Инспектируем все этапы работ</h3>
+          <h3 class="section-sub-heading">Инспектируем все этапы работ</h3>
           <p class="how-we__text">
             Высокий уровень вовлечения представителей целевой аудитории
             является четким доказательством простого факта: высококачественный
@@ -521,25 +493,13 @@
         </nav>
         <ul class="social footer__social">
           <li class="social__item">
-            <a
-              href="#"
-              aria-label="Фэйсбук"
-              class="social__link social__link--fb"
-            ></a>
+            <a href="#" aria-label="Фэйсбук" class="social__link social__link--fb"></a>
           </li>
           <li class="social__item">
-            <a
-              href="#"
-              aria-label="ВКонтакте"
-              class="social__link social__link--vk"
-            ></a>
+            <a href="#" aria-label="ВКонтакте" class="social__link social__link--vk"></a>
           </li>
           <li class="social__item">
-            <a
-              href="#"
-              aria-label="Инстаграм"
-              class="social__link social__link--inst"
-            ></a>
+            <a href="#" aria-label="Инстаграм" class="social__link social__link--inst"></a>
           </li>
         </ul>
       </div>
@@ -548,36 +508,21 @@
         <div class="form footer__form">
           <label class="form__label">
             <span class="visually-hidden">Введите ФИО</span>
-            <input
-              type="text"
-              class="form__input"
-              placeholder="Фамилия, имя и отчество*"
-            />
+            <input type="text" class="form__input" placeholder="Фамилия, имя и отчество*" />
           </label>
           <label class="form__label">
             <span class="visually-hidden">Введите E-mail</span>
             <input type="email" class="form__input" placeholder="E-mail*" />
           </label>
           <label class="form__label">
-            <span class="visually-hidden">Введите сообщение</span
-            ><textarea
-              placeholder="Сообщение"
-              class="form__input form__textarea"
-            ></textarea>
+            <span class="visually-hidden">Введите сообщение</span><textarea placeholder="Сообщение"
+              class="form__input form__textarea"></textarea>
           </label>
           <div class="form__bottom">
             <button class="button form__btn">Отправить данные</button>
             <label class="form__checkbox custom-checkbox">
-              <input
-                type="checkbox"
-                checked
-                name="personal-info"
-                value="Согласен"
-                class="custom-checkbox__input"
-              />
-              <span class="custom-checkbox__text"
-                >Согласен на обработку данных</span
-              >
+              <input type="checkbox" checked name="personal-info" value="Согласен" class="custom-checkbox__input" />
+              <span class="custom-checkbox__text">Согласен на обработку данных</span>
             </label>
           </div>
         </div>

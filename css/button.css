@@ -23,7 +23,6 @@
 }
 
 .button-fill {
-  /* padding: 26px 37px; */
   border: none;
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 16px;
@@ -49,14 +48,14 @@
 }
 
 .button-transparent {
-  /* padding: 19px 38px; */
   border: 3px solid var(--orange);
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 16px;
   line-height: 19px;
   font-weight: 400;
   background-color: transparent;
-  transition: color 0.2s ease, background-color 0.2s ease, outline-color 0.2s ease;
+  transition: color 0.2s ease, background-color 0.2s ease,
+    outline-color 0.2s ease;
 }
 
 .button-transparent:hover,
@@ -65,7 +64,8 @@
   background-color: var(--orange);
   outline-color: var(--orange);
   cursor: pointer;
-  transition: color 0.2s ease, background-color 0.2s ease, outline-color 0.2s ease;
+  transition: color 0.2s ease, background-color 0.2s ease,
+    outline-color 0.2s ease;
 }
 
 .button-transparent:active {

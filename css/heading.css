@@ -12,7 +12,7 @@
   overflow: hidden;
 }
 
-.section-heading-2 {
+.section-heading {
   margin: 0;
   margin-bottom: 22px;
   font-size: 48px;
@@ -22,7 +22,7 @@
   color: var(--dark);
 }
 
-.section-heading-3 {
+.section-sub-heading {
   margin: 0;
   font-size: 24px;
   line-height: 32px;
